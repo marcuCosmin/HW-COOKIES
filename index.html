@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="cookies.js" defer></script>
+    <script src="local-storage.js" defer></script>
+    <script src="get-temp.js"></script>
+</head>
+<body>
+
+    <div style="display: flex;">
+        
+        <div style="border-right: 2px solid black; padding-right: 300px;">
+
+            <h1>Local Storage</h1>
+            
+            <span>Choose your preference:</span>
+            
+            <label><input type="radio" value="cels" name="temperature" id="cels" data-temp="cels">C</label>
+            <label><input type="radio" value="fahr" name="temperature" id="fahr" data-temp="fahr">F</label>
+            
+            <br>
+            <br>
+            
+            <div>Temperature: <span data-temp="temp"></span></div>
+            
+        </div>
+
+        <div style="margin-left: 300px">
+
+            <h1>Cookies</h1>
+            
+            <span>Choose your preference:</span>
+            
+            <label><input type="radio" value="cels" name="temp" id="cels" data-temp="cels2">C</label>
+            <label><input type="radio" value="fahr" name="temp" id="fahr" data-temp="fahr2">F</label>
+            
+            <br>
+            <br>
+            
+            <div>Temperature: <span data-temp="temp2"></span></div>
+            
+        </div>
+        
+        
+        
+    </div>
+
+</body>
+</html>
